@@ -1,6 +1,8 @@
 macos-rsyslog-elasticsearch
 ===========================
 
+TODO test patch with in rsyslog formula...
+
 Custom brew formulas to build/install rsyslog with omelasticsearch enabled. If brew installation for rsyslog with omelasticsearch on OS X Maverics fails for you as it failed for me, try this.
 
 Install this repository as tap:
