@@ -7,7 +7,7 @@ Custom brew formulas to build/install rsyslog with omelasticsearch enabled. If b
 
 Install this repository as tap:
 ```bash
-brew tap sbange/homebrew-macos-rsyslog-elasticsearch
+brew tap sbange/rsyslog-elasticsearch
 ```
 
 If you experience errors while building indicating trouble with pkg-config:
@@ -17,8 +17,8 @@ export PKG_CONFIG=/usr/local/bin/pkg-config
 
 Install from tap:
 ```bash
-brew install sbange/macos-rsyslog-elasticsearch/libestr
-brew install sbange/macos-rsyslog-elasticsearch/libee
-brew install sbange/macos-rsyslog-elasticsearch/liblognorm
-brew install sbange/macos-rsyslog-elasticsearch/rsyslog
+brew install sbange/rsyslog-elasticsearch/libestr
+brew install sbange/rsyslog-elasticsearch/libee
+brew install sbange/rsyslog-elasticsearch/liblognorm
+brew install sbange/rsyslog-elasticsearch/rsyslog
 ```
