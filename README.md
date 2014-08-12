@@ -1,4 +1,4 @@
-macos-rsyslog-elasticsearch
+homebrew-macos-rsyslog-elasticsearch
 ===========================
 
 TODO test patch in rsyslog formula...
@@ -7,7 +7,7 @@ Custom brew formulas to build/install rsyslog with omelasticsearch enabled. If b
 
 Install this repository as tap:
 ```bash
-brew tap sbange/macos-rsyslog-elasticsearch
+brew tap sbange/homebrew-macos-rsyslog-elasticsearch
 ```
 
 If you experience errors while building indicating trouble with pkg-config:
