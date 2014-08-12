@@ -6,6 +6,8 @@ class Liblognorm < Formula
   sha1 "b1e183fa62a22d4c7edf40c8a6373e0b38ef840d"
 
   depends_on 'pkg-config' => :build 
+  depends_on 'sbange/rsyslog-elasticsearch/libestr'
+  depends_on 'sbange/rsyslog-elasticsearch/libee'
 
   def install
     system "./configure", "--disable-debug",
