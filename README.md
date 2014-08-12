@@ -1,7 +1,7 @@
 homebrew-rsyslog-elasticsearch
 ===========================
 
-TODO test patch in rsyslog formula...
+TODO test patch in rsyslog formula... 
 TODO declare dependencies for single "brew install"
 
 Custom brew formulas to build/install rsyslog with omelasticsearch enabled. If brew installation for rsyslog with omelasticsearch on OS X Maverics fails for you as it failed for me, try this.
