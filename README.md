@@ -20,5 +20,6 @@ brew install sbange/rsyslog-elasticsearch/libee
 brew install sbange/rsyslog-elasticsearch/liblognorm
 brew install sbange/rsyslog-elasticsearch/rsyslog
 ```
-TODO test patch in rsyslog formula...  
+
+TODO libee still messed up
 TODO declare dependencies for single "brew install"
