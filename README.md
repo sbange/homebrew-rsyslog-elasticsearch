@@ -1,4 +1,4 @@
-homebrew-macos-rsyslog-elasticsearch
+homebrew-rsyslog-elasticsearch
 ===========================
 
 TODO test patch in rsyslog formula...
