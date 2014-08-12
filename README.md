@@ -15,10 +15,5 @@ export PKG_CONFIG=/usr/local/bin/pkg-config
 
 Install from tap:
 ```bash
-brew install sbange/rsyslog-elasticsearch/libestr
-brew install sbange/rsyslog-elasticsearch/libee
-brew install sbange/rsyslog-elasticsearch/liblognorm
 brew install sbange/rsyslog-elasticsearch/rsyslog
 ```
-
-TODO declare dependencies for single "brew install"
