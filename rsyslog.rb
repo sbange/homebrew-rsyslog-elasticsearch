@@ -6,7 +6,9 @@ class Rsyslog < Formula
   sha256 'f5e46e9324e366f20368162b4f561cf7a76fecb4aa0570edcaaa49e9f8c2fe70'
 
   depends_on 'pkg-config' => :build
-  depends_on 'libestr'
+  # depends_on 'libestr'
+  depends_on 'sbange/rsyslog-elasticsearch/libestr'
+  depends_on 'sbange/rsyslog-elasticsearch/libee'
   depends_on 'json-c'
 
   patch :DATA
