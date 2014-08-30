@@ -18,7 +18,7 @@ Install from tap:
 brew install sbange/rsyslog-elasticsearch/rsyslog
 ```
 
-The binary will be located in /usr/local/sbin/rsyslogd, add this to your $PATH or start with full path name. The following example will start rsyslogd using your config file, keep it from switching to background and print out debug info so you can see what is going on or missing:
+The binary will be located in /usr/local/sbin/rsyslogd, add this to your $PATH or start with full path name. The following example will start rsyslogd using your config file, keep it from switching to background and print out debug info so you can see what is going on:
 
 ```bash
 sudo rsyslogd -f /path/to/your/rsyslog.conf -n -d
